@@ -1,2 +1,2 @@
-# SolLeWitt-p5
-Wall Drawings in p5.js
+# Sol LeWitt Wall Drawings
+Done in p5.js
