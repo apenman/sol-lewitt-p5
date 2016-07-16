@@ -35,6 +35,25 @@ function draw() {
   }
   
   // draw diagonal lines
+  var i = 25;
+  while(i < 775) {
+    var lob = sqrt( sq((25+i)) * 2);
+    console.log("Lob at " + i + " is " + lob);
+    
+    line(25, lob, lob, 25);
+
+    i += 25;
+  }
+  
+  while(i > 25) {
+    var lob = sqrt( sq((25+i)) * 2);
+    console.log("Lob at " + i + " is " + lob);
+    
+    line(lob, 775, 775, lob);
+    
+    i-=25;
+  }
+  
   
   noLoop();
 }
