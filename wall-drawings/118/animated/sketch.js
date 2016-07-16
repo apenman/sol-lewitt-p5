@@ -45,6 +45,7 @@ function animateLine() {
       i++;
       // END OF ANIMATION
       if(i == numPoints) {
+        console.log("DONE!");
         noLoop();
       }
     }
